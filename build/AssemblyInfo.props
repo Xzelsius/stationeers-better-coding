@@ -1,0 +1,14 @@
+<Project>
+
+  <!-- Assembly Info -->
+  <PropertyGroup>
+    <Product>Stationeers.BetterCoding</Product>
+    <Authors>Raphael Strotz</Authors>
+    <Copyright>Copyright © Raphael Strotz. All rights reserved.</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <RepositoryUrl>https://github.com/Xzelsius/stationeers-better-coding.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+</Project>

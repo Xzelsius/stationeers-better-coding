@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{D6F05065-E2D7-42E6-80B0-9E5C98333B88}"
+	ProjectSection(SolutionItems) = preProject
+		build\AssemblyInfo.props = build\AssemblyInfo.props
+		build\Commons.props = build\Commons.props
+		build\Commons.targets = build\Commons.targets
+		build\Dependencies.props = build\Dependencies.props
+		build\Version.props = build\Version.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7CD04862-9D29-4413-895A-D6D961798A63}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+		src\Directory.Build.targets = src\Directory.Build.targets
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stationeers.BetterCoding", "src\Stationeers.BetterCoding\Stationeers.BetterCoding.csproj", "{063056AF-71DF-47D1-8E57-F6355D37086C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{063056AF-71DF-47D1-8E57-F6355D37086C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063056AF-71DF-47D1-8E57-F6355D37086C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063056AF-71DF-47D1-8E57-F6355D37086C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063056AF-71DF-47D1-8E57-F6355D37086C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{063056AF-71DF-47D1-8E57-F6355D37086C} = {7CD04862-9D29-4413-895A-D6D961798A63}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F1A127F-A929-4AA0-B8CB-2C5E9D9A641E}
+	EndGlobalSection
+EndGlobal

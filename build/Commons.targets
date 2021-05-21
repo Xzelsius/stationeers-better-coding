@@ -1,0 +1,7 @@
+<Project>
+
+  <Target Name="Deploy" AfterTargets="PostBuildEvent">
+    <Exec Condition=" Exists( '$(GamePath)\BepInEx\plugins' ) == 'true' " Command="xcopy /Y /F &quot;$(TargetPath)&quot; &quot;$(GamePath)\BepInEx\plugins&quot;" />
+  </Target>
+
+</Project>

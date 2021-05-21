@@ -1,0 +1,12 @@
+<Project>
+
+  <!-- Assembly-Management -->
+  <Import Project="AssemblyInfo.props" />
+
+  <!-- Version-Management -->
+  <Import Project="Version.props" />
+
+  <!-- Package-Management -->
+  <Import Project="Dependencies.props" />
+
+</Project>

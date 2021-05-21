@@ -1,0 +1,39 @@
+<Project>
+
+  <PropertyGroup>
+    <GamePath>C:\Program Files (x86)\Steam\steamapps\common\Stationeers</GamePath>
+  </PropertyGroup>
+
+  <!-- Game -->
+  <ItemGroup>
+
+    <Reference Include="UnityEngine">
+      <HintPath>$(GamePath)\rocketstation_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(GamePath)\rocketstation_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(GamePath)\rocketstation_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+
+  </ItemGroup>
+
+  <!-- BepInEx -->
+  <ItemGroup>
+
+    <Reference Include="0Harmony">
+      <HintPath>$(GamePath)\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>$(GamePath)\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Harmony">
+      <HintPath>$(GamePath)\BepInEx\core\BepInEx.Harmony.dll</HintPath>
+    </Reference>
+
+  </ItemGroup>
+
+</Project>
